@@ -181,7 +181,7 @@ Project Details:
 ${a.projectDetails}
 
 This request was submitted on ${new Date().toLocaleString("en-IN",{timeZone:"Asia/Kolkata"})}
-      `),B.append("to","vamshipmscrt@gmail.com"),B.append("cc","pmsecuritysolutionpvtltd@gmail.com"),(await(await fetch("https://api.web3forms.com/submit",{method:"POST",body:B})).json()).success}catch(B){return console.error("Email sending failed:",B),!1}},Z=()=>{const B="918019602255",ne=`Hello PM Security Solutions!
+      `),B.append("to","vamshipmscrt@gmail.com"),(await(await fetch("https://api.web3forms.com/submit",{method:"POST",body:B})).json()).success}catch(B){return console.error("Email sending failed:",B),!1}},Z=()=>{const B="+918019602255",ne=`Hello PM Security Solutions!
 
 I would like to request a quote for security solutions:
 
